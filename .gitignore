@@ -30,6 +30,7 @@ MANIFEST
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 /playgrounds*
 /results*
@@ -38,7 +39,10 @@ MANIFEST
 # Processing related
 local_tests/
 dump*
-*.pdb;
-
-toy/reproducibility/*
+*.pdb
 fdbm/data/*
+
+# Checkpoints
+*.pt
+logs/*
+toy/reproducibility/*
